@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+  padding: 50px 20px 0px;
+}
+
+.introduction {
+  padding: 0px 0px 30px;
+}
+
+.introduction .image_wrapper {
+  text-align: center;
+}
+.introduction img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.introduction h2 {
+  text-align: center;
+  margin: 20px 0px 30px;
+}
+
+.introduction .other_texts {
+  width: fit-content;
+  margin: auto;
+}
+
+.about_body {
+  letter-spacing: 1px;
+}
+
+.about,
+.skills,
+.experience,
+.projects,
+.education {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 700px;
+}
+
+.skills ul {
+  margin-left: 30px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+.projects ol {
+  margin-left: 30px;
+}
+
+.education div {
+  font-weight: bold;
+}
+
+footer {
+  margin: 50px 0px 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .introduction {
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+  }
+
+  .image_wrapper img {
+    width: 200px;
+    height: 200px;
+  }
+}
